@@ -18,6 +18,7 @@ const userSchema = new mongoose.Schema({
     type: Boolean,
     default: false
   },
+  betaUser: { type: Boolean, default: false },
   birthDate: Date,
   pets: [{ type: String }],
   address: {
